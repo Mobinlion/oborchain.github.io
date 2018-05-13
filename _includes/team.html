@@ -25,30 +25,35 @@
                                     <div class="col-12 d-md-none">
                                         <h2 class="section__title text-center">Team</h2>
                                     </div>
+                                    
                                     <div class="col-12 col-md-6 col-lg-4 pt-5 mb-5">
-                                        <div class="card card--person-image">
-                                            <img class="card-top-image" src="{{ site.imageurl }}/team-1.png"
-                                                 alt="Karel striegel">
-                                            <div class="card-body justify-content-between">
-                                                <div class="card-text text-center">
-                                                    <h4>Alex</h4>
-                                                    <p class="tag">
-                                                        Founder, CEO
-                                                    </p>
-                                                </div>
-                                                <div class="card-text text-center">
-                                                    <a target="_blank" href="https://twitter.com/">
-                                                        <i class="fab fa-2x fa-twitter"></i>
-                                                    </a>
-                                                    <a target="_blank"
-                                                       rel="noreferrer noopener"
-                                                       href="https://www.linkedin.com/in/">
-                                                        <i class="fab fa-2x fa-linkedin"></i>
-                                                    </a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#exampleModal" style="outline: 0;margin: auto;">
+                                            <div class="card card--person-image imghovergray">
+                                                
+                                                <img class=" card-top-image" src="{{ site.imageurl }}/team-1.png"
+                                                    alt="Karel striegel">
+                                                <div class="card-body justify-content-between">
+                                                    <div class="card-text text-center">
+                                                        <h4>Alex</h4>
+                                                        <p class="tag">
+                                                            Founder, CEO
+                                                        </p>
+                                                    </div>
+                                                    <div class="card-text text-center">
+                                                        <a target="_blank" href="https://twitter.com/">
+                                                            <i class="fab fa-2x fa-twitter"></i>
+                                                        </a>
+                                                        <a target="_blank"
+                                                        rel="noreferrer noopener"
+                                                        href="https://www.linkedin.com/in/">
+                                                            <i class="fab fa-2x fa-linkedin"></i>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
+                                
                                     <div class="col-12 col-md-6 col-lg-4 pt-5 mb-5">
                                         <div class="card card--person-image">
                                             <img class="card-top-image" src="{{ site.imageurl }}/team-2.png"
@@ -334,3 +339,23 @@
     <a class="scrolltonext scrolltonext--top" href="#" data-scroll-to="current"></a>
     <a class="scrolltonext" href="#" data-scroll-to="next"></a>
 </section>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-dialog-centered" role="document" >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+ </div>  
